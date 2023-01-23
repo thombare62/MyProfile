@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid rgb(19, 19, 25);
+    }
+  </style>
+
+  <h3>Table with rowspan and colspan</h3>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Full Name</th>
+          <th>Graduation</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anil</td>
+          <td>Kanole</td>
+          <td>BE</td>
+          <td>Pune</td>
+        </tr>
+        <tr>
+          <td>Sunil</td>
+          <td>Mote</td>
+          <td>BCA</td>
+          <td>Mumbai</td>
+        </tr>
+        <tr>
+          <td>Anita</td>
+          <td>Bore</td>
+          <td>MCA</td>
+          <td>Banglore</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Table with rowspan example</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Graduation</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anil</td>
+          <td>Kanole</td>
+          <td>BE</td>
+          <td rowspan="2">Pune</td>
+        </tr>
+        <tr>
+          <td>Sunil</td>
+          <td>Mote</td>
+          <td>BCA</td>
+        </tr>
+        <tr>
+          <td>Anita</td>
+          <td>Bore</td>
+          <td>MCA</td>
+          <td>Banglore</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
